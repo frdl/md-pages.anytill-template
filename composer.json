@@ -1,25 +1,26 @@
 {
-    "name"        : "carew/boilerplate",
-    "description" : "Carew boilerplate",
+    "name"        : "frdl/md-pages.anytill-template",
+    "description" : "md-pages boilerplate",
     "license"     : "MIT",
-    "homepage"    : "http://carew.github.com/",
-    "keywords"    : ["carew"],
+    "homepage"    : "http://example.com/",
+    "keywords"    : ["markdown"],
     "authors"     : [
         {
             "name"  : "Grégoire Pineau",
             "email" : "lyrixx@lyrixx.info"
+        },
+        
+        {
+            "name"  : "Till Wehowski",
+            "email" : "software@frdl.de"
         }
     ],
     "require": {
+        "frdlweb/webfat": "*",
+        "frdl/webfan": "*"
+    },
+    "require-dev": {
         "carew/carew": "^2.1",
         "carew/theme-bootstrap": "^2.1"
-    },
-    "config": {
-        "bin-dir": "bin"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        }
     }
 }
